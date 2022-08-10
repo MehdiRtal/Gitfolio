@@ -1,0 +1,79 @@
+{
+  "github": {
+    "username": "MehdiRtal",
+    "limit": "12",
+    "exclude": {
+      "forks": false,
+      "projects": ["MehdiRtal"]
+    }
+  },
+  "social": {
+    "linkedin": "Mehdi-Rtal",
+    "twitter": "@MehdiRtal",
+    "facebook": "",
+    "dribbble": "",
+    "behance": "",
+    "medium": "",
+    "dev": "@MehdiRtal",
+    "website": "",
+    "phone": "+212 6916-17956",
+    "email": "contact@mehdirtal.com"
+  },
+  "skills": [
+    "C",
+    "Python",
+    "Django",
+    "Flask",
+    "Qt",
+    "JavaScript",
+    "jQuery",
+    "HTML",
+    "Bootstrap",
+    "CSS",
+    "SASS",
+    "SQLite",
+    "MySQL",
+    "Git",
+    "Docker"
+  ],
+  "experiences": [
+    {
+      "company": "Monstarlab Bangladesh",
+      "position": "Backend Engineer II",
+      "from": "September 2021",
+      "to": "Present"
+    },
+    {
+      "company": "My Offer 360 Degree",
+      "position": "Web Application Developer",
+      "from": "July 2019",
+      "to": "August 2021"
+    },
+    {
+      "company": "My Offer 360 Degree",
+      "position": "Web Application Developer",
+      "from": "July 2019",
+      "to": "August 2021"
+    }
+  ],
+  "education": [
+    {
+      "institution": "American International University-Bangladesh",
+      "degree": "Bachelor of Science",
+      "from": "2015",
+      "to": "2019"
+    },
+    {
+      "institution": "Cantonment College, Jessore",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "from": "2012",
+      "to": "2014"
+    },
+    {
+      "institution": "Chowgacha Shahadat Pilot High School",
+      "degree": "Secondary School Certificate (SSC)",
+      "from": "2007",
+      "to": "2012"
+    }
+  ]
+}
