@@ -21,25 +21,92 @@
 
   ![Workflows](https://arifszn.github.io/assets/img/hosted/gitprofile/workflows.png)
 
-- **Base Value:** Open `vite.config.js`, and change `base`'s value.
-
-  - If you are deploying to `https://<USERNAME>.github.io`, set `base` to `'/'`.
-
-  - If you are deploying to `https://<USERNAME>.github.io/<REPO>` (e.g. `https://<USERNAME>.github.io/portfolio`), then set `base` to `'/<REPO>/'` (e.g. `'/portfolio/'`).
-
-  ```js
-  // vite.config.js
-  {
-    base: '/',
-    // ...
-  }
-  ```
-
 - **First Commit:** Now commit to your **main** branch with your changes. The CI/CD pipeline will publish your page at the `gh-pages` branch automatically.
-- **Change deploy branch:** Go to your repo's **Settings** ➜ **Pages** ➜ **Source** and change the branch to `gh-pages` and click **save**.
 
 Your portfolio website will be live by now. Any time you commit a change to the **main** branch, the website will be automatically updated. You can also add custom domain by following [this guide](https://github.com/arifszn/gitprofile/discussions/126).
 
-If you see only `README` at your website, be sure to change your GitHub Page's source to `gh-pages` branch (see [how to](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)). Also, if you face any issue rendering the website, double-check the `base` value in the `vite.config.js`.
+# Customization
+All the magic happens in the file `gitfolio.config.json`. Open it and modify it according to your preference.
 
-As this is a vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
+```json
+// gitfolio.config.json
+{
+  "github": {
+    "username": "MehdiRtal", // Your GitHub org/user name. (Required)
+    "limit": "12", // How many projects to display.
+    "exclude": {
+      "forks": false, // Forked projects will not be displayed if set to true.
+      "projects": ["MehdiRtal"] // These projects will not be displayed. example: ['my-project1', 'my-project2']
+    }
+  },
+  "social": {
+    "linkedin": "Mehdi-Rtal",
+    "twitter": "@MehdiRtal",
+    "facebook": "",
+    "dribbble": "",
+    "behance": "",
+    "medium": "",
+    "dev": "@MehdiRtal",
+    "website": "",
+    "phone": "+212 6916-17956",
+    "email": "contact@mehdirtal.com"
+  },
+  "skills": [
+    "C",
+    "Python",
+    "Django",
+    "Flask",
+    "Qt",
+    "JavaScript",
+    "jQuery",
+    "HTML",
+    "Bootstrap",
+    "CSS",
+    "SASS",
+    "SQLite",
+    "MySQL",
+    "Git",
+    "Docker"
+  ],
+  "experiences": [
+    {
+      "company": "Monstarlab Bangladesh",
+      "position": "Backend Engineer II",
+      "from": "September 2021",
+      "to": "Present"
+    },
+    {
+      "company": "My Offer 360 Degree",
+      "position": "Web Application Developer",
+      "from": "July 2019",
+      "to": "August 2021"
+    },
+    {
+      "company": "My Offer 360 Degree",
+      "position": "Web Application Developer",
+      "from": "July 2019",
+      "to": "August 2021"
+    }
+  ],
+  "education": [
+    {
+      "institution": "American International University-Bangladesh",
+      "degree": "Bachelor of Science",
+      "from": "2015",
+      "to": "2019"
+    },
+    {
+      "institution": "Cantonment College, Jessore",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "from": "2012",
+      "to": "2014"
+    },
+    {
+      "institution": "Chowgacha Shahadat Pilot High School",
+      "degree": "Secondary School Certificate (SSC)",
+      "from": "2007",
+      "to": "2012"
+    }
+  ]
+}
+```
