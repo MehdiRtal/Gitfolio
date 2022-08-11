@@ -82,3 +82,6 @@ All the magic happens in the file `gitfolio.config.json`. Open it and modify it 
   ]
 }
 ```
+
+# Credits
+@[arifszn](https://github.com/arifszn) - For the inspiration and README copy (small part(maybe))
