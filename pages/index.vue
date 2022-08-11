@@ -157,7 +157,7 @@
                 >
                 <v-card-text class="secondary--text mt-n5"
                   ><p>{{ post.description }}</p>
-                  <v-chip v-for="tag in post.tags" class="mt-1 accent mr-2">{{
+                  <v-chip v-for="tag in post.tags" class="mt-1 accent mr-1">{{
                     tag
                   }}</v-chip></v-card-text
                 >
