@@ -157,7 +157,9 @@
                 >
                 <v-card-text class="secondary--text mt-n5"
                   ><p>{{ post.description }}</p>
-                  <v-chip class="mt-1">Test</v-chip></v-card-text
+                  <v-chip v-for="tag in post.tags" class="mt-1 accent mr-2">{{
+                    tag
+                  }}</v-chip></v-card-text
                 >
               </v-card>
             </v-col>
@@ -228,6 +230,7 @@ export default {
           date: "18",
           image:
             "https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png",
+          tags: ["Test 1", "Test 2"],
         },
         {
           title: "Lorem Ipsum is simply dummy text of the printing and type",
@@ -237,6 +240,7 @@ export default {
           date: "19",
           image:
             "https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png",
+          tags: ["Test 1"],
         },
         {
           title: "Lorem Ipsum is simply dummy text of the printing and type",
@@ -246,6 +250,7 @@ export default {
           date: "18",
           image:
             "https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png",
+          tags: ["Test 1", "Test 2", "Test 3"],
         },
       ],
       experiences: gitprofile.experiences,
