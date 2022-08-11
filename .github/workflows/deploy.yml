@@ -2,8 +2,13 @@ name: Deploy
 
 on:
   workflow_dispatch:
-   push:
+  push:
     branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
