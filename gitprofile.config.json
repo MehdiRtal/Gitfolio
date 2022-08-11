@@ -38,42 +38,42 @@
   ],
   "experiences": [
     {
-      "company": "Monstarlab Bangladesh",
-      "position": "Backend Engineer II",
+      "company": "Lorem ipsum company",
+      "position": "Lorem ipsum",
       "from": "September 2021",
       "to": "Present"
     },
     {
-      "company": "My Offer 360 Degree",
-      "position": "Web Application Developer",
-      "from": "July 2019",
-      "to": "August 2021"
+      "company": "Lorem ipsum company",
+      "position": "Lorem ipsum",
+      "from": "September 2021",
+      "to": "Present"
     },
     {
-      "company": "My Offer 360 Degree",
-      "position": "Web Application Developer",
-      "from": "July 2019",
-      "to": "August 2021"
+      "company": "Lorem ipsum company",
+      "position": "Lorem ipsum",
+      "from": "September 2021",
+      "to": "Present"
     }
   ],
   "education": [
     {
-      "institution": "American International University-Bangladesh",
-      "degree": "Bachelor of Science",
+      "institution": "Lorem ipsum institution",
+      "degree": "Lorem ipsum",
       "from": "2015",
       "to": "2019"
     },
     {
-      "institution": "Cantonment College, Jessore",
-      "degree": "Higher Secondary Certificate (HSC)",
-      "from": "2012",
-      "to": "2014"
+      "institution": "Lorem ipsum institution",
+      "degree": "Lorem ipsum",
+      "from": "2015",
+      "to": "2019"
     },
     {
-      "institution": "Chowgacha Shahadat Pilot High School",
-      "degree": "Secondary School Certificate (SSC)",
-      "from": "2007",
-      "to": "2012"
+      "institution": "Lorem ipsum institution",
+      "degree": "Lorem ipsum",
+      "from": "2015",
+      "to": "2019"
     }
   ]
 }
