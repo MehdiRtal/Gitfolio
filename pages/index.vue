@@ -34,8 +34,12 @@
         <v-card-text>
           <v-avatar
             style="display: block; margin-left: auto; margin-right: auto"
-            size="120"
-            ><img :src="avatar" />
+            size="130"
+            ><img
+              style="border: 4px solid #1c466f"
+              class="pa-1"
+              :src="avatar"
+            />
           </v-avatar>
           <h2 class="mt-7 primary--text text-center">
             {{ name }}
