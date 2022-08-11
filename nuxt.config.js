@@ -2,7 +2,7 @@ import gitprofile from "./gitprofile.config.json";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -21,7 +21,7 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "./static/favicon.ico" },
+      { rel: "icon", type: "image/x-icon", href: "/static/favicon.ico" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap",
