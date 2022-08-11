@@ -4,13 +4,13 @@
 # Features
 ✓ Easy to Setup  
 ✓ SEO  
-- ✓ Avatar and Bio Section
-- ✓ Social Links Section
-- ✓ Skills Section
-- ✓ Experience Section
-- ✓ Education Section
-- ✓ Projects Section
-- ✓ Blog Posts Section
+✓ Avatar and Bio Section  
+✓ Social Links Section  
+✓ Skills Section  
+✓ Experience Section  
+✓ Education Section  
+✓ Projects Section  
+✓ Blog Posts Section  
 
 # Installation
 - **Fork repo:** Click [here](https://github.com/MehdiRtal/Gtfolio/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
