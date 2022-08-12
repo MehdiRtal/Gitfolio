@@ -84,4 +84,4 @@ All the magic happens in the file `gitfolio.config.json`. Open it and modify it 
 ```
 
 # Credits
-@[GitProfile](https://github.com/arifszn/gitprofile) - For the inspiration
+[GitProfile](https://github.com/arifszn/gitprofile) - For the inspiration
